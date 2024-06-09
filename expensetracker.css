@@ -1,0 +1,110 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #f4f4f4;
+}
+.full_body {
+    font-size: 18px;
+    background-image: linear-gradient(to right top, #4a90e2, #50a1e2, #59b3e3, #64c5e4, #70d7e6);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+} 
+.title {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.buttons {
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #ff6347;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+table {
+    background-color: #333;
+    color: #f4f4f4;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 4px;
+}
+td, th {
+    font-size: 15px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.add-new-expense, .add-category {
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    display: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.add-new-expense span, .add-category span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 15px;
+}
+.form-input {
+    background-color: #f4f4f4;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-input:focus {
+    background-color: #f4f4f4;
+    border: 1px solid #007bff;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.available-categories {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 100%;
+    color: #f4f4f4;
+}
+.available-categories > span {
+    padding: 8px 10px;
+    border-bottom: 1px solid #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.sub-title {
+    font-size: 23px;
+    color: #f4f4f4;
+    margin-top: 30px;
+}
